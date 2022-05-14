@@ -1,0 +1,155 @@
+@media all and (max-width:1200px){
+	.container{
+		padding: 0 2rem;
+		box-sizing: border-box;
+
+	}
+}
+@media all and (min-width:991px){
+	/* header-top menus */
+	.menu-items {
+		display: block;
+	}
+}
+@media all and (max-width:991px){
+    /* header-top */
+	.menu-icon{
+        display: inline-block !important;
+		border: 2px solid #345DEE;
+    }
+	.menu-icon i {
+		font-size: 2rem;
+	}
+    .menu ul{
+        flex-direction: column;               
+    } 
+	.heaser-top-area{
+		position: relative;
+	}  
+	.menu-items {
+		display: none;
+		position: absolute;
+		width: 100%;
+		left: 0;
+		top: 115%;
+		background: #345DEE;
+		padding: 2rem 0;
+		z-index: 1;
+		
+	}
+	.menu-items .menu ul li a:hover{
+		color: #fff !important;
+	}
+	/* banner-area */
+	.banner-image {
+		text-align: center;
+	}
+	/* passion area */
+	.passion-image img {
+		max-width: 100%;
+		width: 90%;
+	}
+	/* teem member area */
+	.single-member{
+		margin-bottom: 2rem;
+	}
+	/* onnect Apps-area */
+	.apps-carosel .owl-nav .owl-prev{
+		left: -3rem;
+	}
+	.apps-carosel .owl-nav .owl-next{
+		right: -3rem;
+	}
+	/* ==========industris==page====== */
+	.mixi-contrl ul li {
+		margin-bottom: 2rem;
+	}
+	.mixi-items {
+		grid-template-columns: repeat(2,1fr);
+	}
+	/* ==========contuctus==page====== */
+	.contuct-form .input-items {
+		grid-template-columns: repeat(1,1fr);
+	}
+}
+@media all and (max-width:768px){
+	.header-top-bottons a{
+		display: none;
+	}
+	/* passion area */
+	.passion-single-row:nth-child(odd) .col-md-6:last-child{
+		order: -1;
+	}
+	.passion-content{
+		padding-bottom: 5rem;
+	}
+	/* footer copyright area */
+	.social-icons ul {
+		justify-content: center;
+	}
+	.social-icons {
+		margin-top: 2rem;
+	}
+	/* ==========contuctus==page====== */
+	.contuct-right {
+		float: left;
+		padding-top: 5rem;
+	}
+}
+@media all and (max-width:576px){
+	.pd{
+		padding: 3rem 0;
+	}
+	h1 {
+		font-size: 4rem;
+	}
+	h2 {
+		font-size: 3.5rem;
+	}
+	.banner-left h1 {
+		max-width: 30rem;
+	}
+	.banner-left > p {
+		font-size: 1.6rem;
+	}
+	.section-title p {
+		font-size: 1.6rem;
+	}
+	/* onnect Apps-area */
+	.apps-carosel .owl-nav .owl-prev{
+		left: -1rem;
+	}
+	.apps-carosel .owl-nav .owl-next{
+		right: -1rem;
+	}
+	
+}
+@media all and (max-width:480px){
+	.suscribe-from form {
+		flex-direction: column;
+		justify-content: inherit;
+		align-items: inherit;
+	}
+	.suscribe-from form input[type="email"],
+	.suscribe-from form input[type="submit"] {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.suscribe-from form input[type="submit"] {
+		margin-top: 1rem;
+	}
+	.banner-image img {
+		max-width: 80%;
+		margin-top: 2rem;
+	}
+	/* ==========industris==page====== */
+	.mixi-contrl ul li {
+		margin-bottom: 2rem;
+	}
+	.mixi-items {
+		grid-template-columns: repeat(1,1fr);
+		grid-row-gap: 2rem;
+		grid-column-gap: 2rem;
+	}
+	
+}
